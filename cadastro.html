@@ -4,47 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>cadastro</title>
 
 </head>
 <body>
-    <h1>insere dados correspondetem abaixo.</h1>
+    <h1>Dados do dev. </h1>
+
+   
     <div class="dados">
-        <span>Nome</span>
-        <input type="text">
-        <span>Sobrenome</span>
-        <input type="text">
-        <span>Data de nacimento</span>
-        <input type="date" name="" id="">
-        <span>Formação academica</span>
-        <input type="text">
-        <span>Email</span>
-        <input type="email" name="" id="">
-        
-        
-        <div class="qualificacao">
-            <h2>Em quais dessas vagas você se qualifica?</h2>
-            <input type="checkbox" name="" id="">
-            <span>HTML</span>
-            <input type="checkbox" name="" id="">
-            <span>CSS</span>
-            <input type="checkbox" name="" id="">
-            <span>javaScript</span>
-            <input type="checkbox" name="" id="">
-            <span>java</span>
-            <input type="checkbox" name="" id="">
-            <span>PhP</span>
-            <input type="checkbox" name="" id="">
-            <span>Node.js</span>
+        <fieldset>
+            <form>
+                <span>Nome</span>
+                <input type="text">
+            </form>
+            <form action="">
+                <span>Sobrenome</span>
+                <input type="text">
 
-        </div>
-        <p>Escrever um pouco da sua experiencia profissional</p>
-        <input type="text" id="tamanho_descri">
-        <div class="salvar">
+            </form>
+            <form action="">
+                <span>Data de nacimento</span>
+                <input type="date" name="" id="">
 
-            <input type="button" value="Salvar">
-        </div>
+            </form>
+            
+            <form>
+                <span>Email</span>
+                <input type="email" name="" id="">
+
+            </form>
+            
+        </fieldset>
+        <h1>Formação academica.</h1>
+        <fieldset>
+            <form>
+                <span>Nome do Curso</span>
+                <input type="text">
+
+            </form>
+            <label for="">diandamento do curso</label>
+            <select name="Selecione" id="">
+                <option selected disabled value="Selecione">Selecione</option>
+                <option value="">incompleto</option>
+                <option value="">andamento</option>
+                <option value="">completo</option>
+            </select>
+        </fieldset>
+        
+        <h1>Em quais dessas tecnologia você se qualifica?</h1>
+        <fieldset>
+            <div class="qualificacao">
+                
+                <input type="checkbox" name="" id="">
+                <span>HTML</span>
+                <input type="checkbox" name="" id="">
+                <span>CSS</span>
+                <input type="checkbox" name="" id="">
+                <span>javaScript</span>
+                <input type="checkbox" name="" id="">
+                <span>java</span>
+                <input type="checkbox" name="" id="">
+                <span>PhP</span>
+                <input type="checkbox" name="" id="">
+                <span>Node.js</span>
+    
+            </div>
+            <p>Escrever um pouco da sua experiencia profissional</p>
+            <textarea row="1" style="width: 40em;"> </textarea>
+            <div class="salvar">
+    
+                
+            </div>
+        </fieldset>
+        <input type="button" value="Salvar">
         
 
     </div>
