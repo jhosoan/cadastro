@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
     <title>cadastro</title>
 
 </head>
@@ -17,22 +18,22 @@
         <h1>Dados do dev.</h1> 
         <fieldset>
             <form>
-                <span>Nome</span>
+                <span>Nome:</span>
                 <input type="text">
             </form>
             <form action="">
-                <span>Sobrenome</span>
+                <span>Sobrenome:</span>
                 <input type="text">
 
             </form>
             <form action="">
-                <span>Data de nacimento</span>
+                <span>Data de nacimento:</span>
                 <input type="date" name="" id="">
 
             </form>
             
             <form>
-                <span>Email</span>
+                <span>Email:</span>
                 <input type="email" name="" id="">
 
             </form>
@@ -45,7 +46,7 @@
                 <input type="text">
 
             </form>
-            <label for="">diandamento do curso</label>
+            <label for="">Andamento do curso:</label>
             <select name="Selecione" id="">
                 <option selected disabled value="Selecione">Selecione</option>
                 <option value="">incompleto</option>
@@ -54,34 +55,51 @@
             </select>
         </fieldset>
         
-        <h1>Em quais dessas tecnologia você se qualifica?</h1>
+        <h1>Seus conhecimento.</h1>
         <fieldset>
             <div class="qualificacao">
-                
+                <p>Qual dessas tecnologia você domina?</p>
                 <input type="checkbox" name="" id="">
                 <span>HTML</span>
                 <input type="checkbox" name="" id="">
                 <span>CSS</span>
                 <input type="checkbox" name="" id="">
-                <span>javaScript</span>
+                <span>JavaScript</span>
                 <input type="checkbox" name="" id="">
-                <span>java</span>
+                <span>Java</span>
                 <input type="checkbox" name="" id="">
                 <span>PhP</span>
                 <input type="checkbox" name="" id="">
                 <span>Node.js</span>
     
             </div>
-            <p>Escrever um pouco da sua experiencia profissional</p>
-            <textarea row="1" style="width: 40em;"> </textarea>
+            <p>Escreva um pouco sobre você:</p>
+            <textarea row="1" > </textarea>
             <div class="salvar">
     
                 
             </div>
         </fieldset>
-        <input type="button" value="Salvar">
+        <h1>Rede Social.</h1>
+        <fieldset>
+            <form action="">
+             <span>Linkedin:</span>
+            <input type="url" id="homepage" name="homepage">
+            </form>
+            <form action="">
+                <span>Guihub:</span>
+               <input type="url" id="homepage" name="homepage">
+            </form>
+            <form action="">
+                <span>Portifolio:</span>
+               <input type="url" id="homepage" name="homepage">
+            </form>
+            
+        </fieldset>
+        <input type="button" value="ENVIAR" class="btn_salvar">
         
 
     </div>
+    
 </body>
 </html> 
