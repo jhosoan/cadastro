@@ -86,6 +86,11 @@ sobrenome.addEventListener("click", () => {
     var men = document.getElementById("msd_quatro")
     men.innerHTML = ""   
 })
+curso.addEventListener("click", ()=>{
+   curso.style.borderColor = "black"
+    var men = document.getElementById("msd_curso")
+    men.innerHTML = "" 
+})
 
 
      
